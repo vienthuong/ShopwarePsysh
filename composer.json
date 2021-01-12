@@ -1,0 +1,21 @@
+{
+  "name": "vin-sw/psysh",
+  "description": "Psysh integration for Shopware",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+  "psr-4": {
+      "ShopwarePsysh\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ShopwarePsysh\\ShopwarePsysh",
+    "label": {
+      "de-DE": "Psysh integration for Shopware",
+      "en-GB": "Psysh integration for Shopware"
+    }
+  },
+  "require": {
+      "psy/psysh": "^0.10.5"
+  }
+}
